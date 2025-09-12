@@ -19,7 +19,7 @@ Whether it’s a **resume, research paper, report, or contract**, simply upload 
 ## 📸 Screenshot
 Here’s a quick look at the app in action:
 
-![Screenshot](screenshot/Demo.png)
+![Screenshot](screenshots/Demo.png)
 
 ---
 
@@ -80,5 +80,6 @@ Gemdoc-AI/
 🔗 [GitHub Profile](https://github.com/yadav2rishikesh)
 
 ```
+
 
 
