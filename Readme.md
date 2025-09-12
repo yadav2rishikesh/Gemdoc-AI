@@ -58,26 +58,26 @@ Gemdoc-AI/
 - **Local Development**  
   ```bash
   docker compose up --build
-````
 
-* **Frontend** → Runs on `http://localhost:3000`
-* **Backend** → Runs on `http://localhost:8000/docs`
+
+* Frontend → Runs on `http://localhost:3000`
+* Backend → Runs on `http://localhost:8000/docs`
 
 ---
 
 ## 📌 Notes
 
-* Requires a valid **Gemini API Key** → [Get from Google AI Studio](https://aistudio.google.com/).
+* Requires a valid Gemini API Key → [Get from Google AI Studio](https://aistudio.google.com/).
 * Best results on English text.
 * Large or image-heavy DOCX/PDF may extract less text.
 
----
 
 👨‍💻 Author
 
   Rishikesh Yadav
 🚀 Startup-focused developer | AI & Cloud Enthusiast
 🔗 [GitHub Profile](https://github.com/yadav2rishikesh)
+
 
 
 
