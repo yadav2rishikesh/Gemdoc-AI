@@ -73,13 +73,13 @@ Gemdoc-AI/
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-**Rishikesh Yadav**
+  Rishikesh Yadav
 🚀 Startup-focused developer | AI & Cloud Enthusiast
 🔗 [GitHub Profile](https://github.com/yadav2rishikesh)
 
-```
+
 
 
 
