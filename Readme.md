@@ -66,9 +66,7 @@ Frontend runs at 👉 [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📸 Screenshots (Optional)
-
-You can add screenshots here to make the project look professional:
+## 📸 Screenshots 
 
 ![Upload Document Screenshot](screenshots/upload.png)
 ![Query Document Screenshot](screenshots/query.png)
@@ -100,5 +98,6 @@ git add README.md
 git commit -m "Added professional README with features and usage"
 git push
 ````
+
 
 
