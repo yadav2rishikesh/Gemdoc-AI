@@ -1,103 +1,83 @@
 # 📄 GEMDOC AI – Document Question Answering with Google Gemini
 
-GEMDOC AI is a smart document assistant that extracts insights from **PDF and DOCX** files.  
-Upload a document, ask natural language questions, and get precise answers using **Google Gemini**.
+GEMDOC AI is a smart **document assistant** that helps you extract insights from **PDF or DOCX files**.  
+Whether it’s a **resume, research paper, report, or contract**, simply upload the file and ask questions in natural language.
 
 ---
 
 ## 🚀 Features
-✅ Upload **PDF/DOCX** files  
-✅ Automatic text extraction & chunking  
-✅ Store data in a **FAISS knowledge database**  
-✅ Ask natural language questions  
-✅ Powered by **Google Gemini API**  
-✅ Works for resumes, reports, research papers, contracts, and more  
+- 📂 Upload **PDF or DOCX** files
+- ✂️ Automatic text **extraction + chunking**
+- 🔎 Fast semantic search with **FAISS**
+- 🤖 Powered by **Google Gemini API** for accurate answers
+- 🌐 Backend with **FastAPI**
+- ⚛️ Frontend with **React.js**
+- 🐳 Supports **Docker** for containerized deployment
+
+---
+
+## 📸 Screenshot
+Here’s a quick look at the app in action:
+
+![App Screenshot](screenshot/myimage.png)
 
 ---
 
 ## 🛠️ Tech Stack
-- **Backend**: FastAPI, FAISS, SentenceTransformers  
-- **Frontend**: ReactJS  
-- **LLM**: Google Gemini API  
-- **Deployment**: Docker + Docker Compose  
+- **Backend** → FastAPI, FAISS, Sentence-Transformers  
+- **Frontend** → React.js  
+- **LLM** → Google Gemini 2.5 Flash  
+- **Containerization** → Docker & Docker Compose  
+
+---
+
+## ⚡ How It Works
+1. Upload your PDF/DOCX document.  
+2. The system extracts text and stores embeddings in FAISS.  
+3. When you ask a question, the most relevant chunks are retrieved.  
+4. Gemini LLM generates a **context-aware response**.  
 
 ---
 
 ## 📂 Project Structure
 ```
 
-GEMDOC-AI/
+Gemdoc-AI/
 │── backend/        # FastAPI backend
-│   ├── main.py     # API endpoints
-│   ├── Dockerfile  # Backend Docker config
-│   └── requirements.txt
-│
-│── frontend/       # ReactJS frontend
-│   ├── src/        # React components
-│   └── package.json
-│
+│── frontend/       # React frontend
 │── docker-compose.yml
+│── .env.example
+│── screenshot/     # App screenshots
 │── README.md
-│── .env
 
 ````
 
 ---
 
-## ⚙️ How to Run Locally
-
-### 🔹 Backend
-```bash
-# In root folder
-docker compose up -d
+## 🛠️ Deployment
+- **Local Development**  
+  ```bash
+  docker compose up --build
 ````
 
-Backend runs at 👉 [http://localhost:8000/docs](http://localhost:8000/docs)
-
-### 🔹 Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-Frontend runs at 👉 [http://localhost:3000](http://localhost:3000)
+* **Frontend** → Runs on `http://localhost:3000`
+* **Backend** → Runs on `http://localhost:8000/docs`
 
 ---
 
-## 📸 Screenshots 
+## 📌 Notes
 
-![Upload Document Screenshot](screenshots/upload.png)
-![Query Document Screenshot](screenshots/query.png)
-
-*(Place your images in a folder called `screenshots/` in the repo)*
-
----
-
-## 🔑 Notes
-
-* Requires a valid **Google Gemini API Key** in `.env` file
-* Works best with **English text** documents
-* Very large documents may take extra processing time
+* Requires a valid **Gemini API Key** → [Get from Google AI Studio](https://aistudio.google.com/).
+* Best results on English text.
+* Large or image-heavy DOCX/PDF may extract less text.
 
 ---
 
 ## 👨‍💻 Author
 
 **Rishikesh Yadav**
-🚀 Built as a startup demo project
+🚀 Startup-focused developer | AI & Cloud Enthusiast
+🔗 [GitHub Profile](https://github.com/yadav2rishikesh)
 
-````
-
----
-
-👉 After pasting this in `README.md`, run:
-```bash
-git add README.md
-git commit -m "Added professional README with features and usage"
-git push
-````
-
-
+```
 
